@@ -1,10 +1,6 @@
 import cv2
-import numpy as np
-from PIL import Image, ImageFilter, ImageEnhance 
-import matplotlib.pyplot as plt
-from io import BytesIO
-import base64
-import os
+from PIL import Image
+import osп
 from flask import Flask, render_template, request, redirect, url_for, send_from_directory
 from werkzeug.utils import secure_filename
 
